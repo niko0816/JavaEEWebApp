@@ -1,0 +1,9 @@
+  <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>jp.ac.ttc.webapp.HelloServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
